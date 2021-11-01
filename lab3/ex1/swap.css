@@ -1,0 +1,63 @@
+
+body {
+    background-color: lightblue;
+    padding:5rem;
+}
+h1 {
+    text-align: center;
+}
+.img-container {
+    border:2px solid black;
+    margin: auto;
+    width: 60rem;
+    height:30rem;
+}
+
+
+img {
+    width: 25em;
+    height: 25em;
+    padding:2rem;
+}
+
+@media only screen and (max-width:850px){
+    .img-container {
+        width: 40rem;
+        height:20rem;
+    }
+    
+    img {
+        width: 15em;
+        height: 15em;
+    }
+}
+@media only screen and (max-width:500px){
+    body {
+        background-color: lightblue;
+        padding-left:0rem;
+    }
+    .img-container {
+        width: 30rem;
+        height:15rem;
+        margin-left:0rem;
+    }
+    img {
+        width: 10em;
+        height: 10em;
+    }
+}
+
+.img-swap {
+    position:fixed;
+    left: 47%;
+}
+
+#swap-btn {
+    background-color: rgb(3, 3, 56);
+    color:white;
+    position:fixed;
+    left:46%;
+    width:8rem;
+    height:2rem;
+    font-weight: bold;
+}

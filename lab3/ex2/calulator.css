@@ -1,0 +1,53 @@
+
+body {
+    background-color: lightblue;
+    padding-top: 5rem;
+}
+
+.container {
+    margin-left:35%;
+}
+
+h1 {
+    margin-left:15%;
+}
+
+form {
+    background-color: lightgoldenrodyellow;
+    border: 2px solid black;
+    border-radius: 1rem;
+    width:50%;
+    height:25rem;
+    
+}
+
+
+h2 {
+    text-align: center;
+}
+
+.div-text {
+    margin:1rem;
+    
+}
+
+.text {
+    border-radius: 0.5rem;
+    width: 97%;
+    height:2.5rem;
+    /* margin-left:1rem; */
+}
+
+#btn, #clear-btn {
+    background-color: coral;
+    border-radius: 0.5rem;
+    width: 98%;
+    height:2.5rem;
+    font-weight: bold;
+    font-size: large;
+}
+[placeholder], [value]{
+    font-size: large;
+    padding-left: 0.5rem;
+}
+
