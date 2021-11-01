@@ -1,13 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./swap.css">
-    <script src="./swap.js" defer></script>
+    <style>
+        body {
+            background-color: lightblue;
+            padding:5rem;
+        }
+        h1 {
+            text-align: center;
+        }
+        .img-container {
+            border:2px solid black;
+            margin: auto;
+            width: 60rem;
+            height:30rem;
+        }
+
+
+        img {
+            width: 25em;
+            height: 25em;
+            padding:2rem;
+        }
+
+        @media only screen and (max-width:850px){
+            .img-container {
+                width: 40rem;
+                height:20rem;
+            }
+            
+            img {
+                width: 15em;
+                height: 15em;
+            }
+        }
+        @media only screen and (max-width:500px){
+            body {
+                background-color: lightblue;
+                padding-left:0rem;
+            }
+            .img-container {
+                width: 30rem;
+                height:15rem;
+                margin-left:0rem;
+            }
+            img {
+                width: 10em;
+                height: 10em;
+            }
+        }
+
+        .img-swap {
+            position:fixed;
+            left: 47%;
+        }
+
+        #swap-btn {
+            background-color: rgb(3, 3, 56);
+            color:white;
+            position:fixed;
+            left:46%;
+            width:8rem;
+            height:2rem;
+            font-weight: bold;
+        }
+    </style>
+
     <title>Swap</title>
 </head>
+
+
 <body>
     <div>
         <h1>Swap Photo</h1>
@@ -19,5 +81,22 @@
     <div class="button-container">
         <input type="button" id="swap-btn" value="Swap">
     </div>
+
+    <script>
+
+        const swapBtn = document.getElementById("swap-btn");
+        const imgOne = document.querySelector(".img-1");
+
+
+        swapBtn.addEventListener("click", function (){
+            if(!imgOne.classList.contains("img-swap")){
+                imgOne.classList.add("img-swap")
+            } else {
+                imgOne.classList.remove("img-swap")
+            }
+        });
+    </script>
+
+
 </body>
 </html>
