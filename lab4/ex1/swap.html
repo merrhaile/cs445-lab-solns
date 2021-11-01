@@ -50,10 +50,10 @@
             }
         }
 
-        .img-swap {
+        /* .img-swap {
             position:fixed;
             left: 47%;
-        }
+        } */
 
         #swap-btn {
             background-color: rgb(3, 3, 56);
@@ -85,15 +85,13 @@
     <script>
 
         const swapBtn = document.getElementById("swap-btn");
-        const imgOne = document.querySelector(".img-1");
-
-
         swapBtn.addEventListener("click", function (){
-            if(!imgOne.classList.contains("img-swap")){
-                imgOne.classList.add("img-swap")
-            } else {
-                imgOne.classList.remove("img-swap")
-            }
+            const imgOne = document.querySelector(".img-1");
+            const imgTwp = document.querySelector(".img-2");
+
+            let tempImg = imgOne.src;
+            imgOne.src = imgTwp.src ;
+            imgTwp.src = tempImg;
         });
     </script>
 
