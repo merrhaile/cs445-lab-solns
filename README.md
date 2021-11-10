@@ -5,3 +5,4 @@
 ## 4. [Lab 4](https://github.com/merrhaile/cs445-lab-solns/tree/main/lab4)
 ## 5. [Lab 5](https://github.com/merrhaile/cs445-lab-solns/tree/main/lab5)
 ## 6. [Lab 6](https://github.com/merrhaile/cs445-lab-solns/tree/main/lab6)
+## 7. [Lab 7](https://github.com/merrhaile/cs445-lab-solns/tree/main/lab7)
