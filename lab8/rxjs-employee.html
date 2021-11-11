@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+        h1 {
+            text-align: center;
+        }
+        #inputDiv {
+            margin-left: 37%;
+        }
+        #getemployee-btn {
+            background-color: rgb(2, 2, 68);
+            color:white;
+            width:10rem;
+            height:2rem;
+            text-align: center;
+            font-size: medium;
+            margin-bottom: 1rem;
+        }
+        #text {
+            width:10rem;
+            height:2rem;
+            font-size: medium;
+        }
+        .user-info {
+            border:2px solid grey;
+            margin-left: 25%;
+            margin-right: 25%;
+            margin-bottom: 0.3rem;
+            display: flex;
+        }
+        @media only screen and (max-width:600px) {
+            .div-container {
+            margin-left: 5%;
+            margin-right: 5%;
+            }
+        }
+        @media only screen and (max-width:900px) {
+            .div-container {
+            margin-left: 10%;
+            margin-right: 10%;
+            }
+        }
+        #div-name{
+            padding-top:5%;
+            width:50%;
+            height: auto;
+        }
+        #div-text {
+            width:50%;
+            height: auto;;
+            
+        }
+    </style>
+    <title>Employee List</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Employee List</h1>
+        <div id="inputDiv">
+            <input type="text" id="text" placeholder="Enter a number" required>
+            <input type="button" id="getemployee-btn" value="Get Employee List">
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.6.7/rxjs.umd.js"></script> 
+    <script src="rxjs-employee.js"></script>
+</body>
+</html>
