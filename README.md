@@ -8,3 +8,4 @@
 ## 7. [Lab 7](https://github.com/merrhaile/cs445-lab-solns/tree/main/lab7)
 ## 8. [Lab 8](https://github.com/merrhaile/cs445-lab-solns/tree/main/lab8)
 ## 9. [Lab 9](https://github.com/merrhaile/cs445-lab-solns/tree/main/lab9)
+## 10. [Lab 10](https://github.com/merrhaile/cs445-lab-solns/tree/main/lab10)
